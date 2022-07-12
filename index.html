@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My first goodish webpage</title>
-    <style>
-      img {
-        width: 100px;
-        border-radius: 50px;
-        float: left;
-        margin-right: 10px;
-      }
-      .paragraph1 {
-        font-weight: bold;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unsubscribe Landing</title>
   </head>
   <body>
-    <img src="Images/Exllc FB image 1.webp" />
-    <p class="paragraph1">
-      I guess this can be plaintext too damn this is easy lmao
+    <p>
+      If you wish to unsubscribe, click on the link below. If you've reached
+      this page by mistake or changed your mind, please exit the page.
     </p>
-    <p class="paragraph2">Here's a second paragraph hoorah</p>
+    <div>
+      <form action="https://formspree.io/f/mjvlqlkn" method="POST">
+        <label for="emailIn">Enter your email address here: </label>
+        <input id="emailIn" type="email" name="emailAddress" />
+      
+    </div>
+    <div>
+      <button type="reset" id="clearField">Clear</button>
+      <button type="submit" id="submitAddress">Submit</button>
+    </div>
+  </form>
   </body>
 </html>
